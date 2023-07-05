@@ -32,7 +32,10 @@
         "symfony/serializer": "6.2.*",
         "symfony/twig-bundle": "6.2.*",
         "symfony/validator": "6.2.*",
-        "symfony/yaml": "6.2.*"
+        "symfony/yaml": "6.2.*",
+        "deployer/deployer": "^7.3",
+        "symfony/stopwatch": "6.2.*",
+        "symfony/web-profiler-bundle": "6.2.*"
     },
     "config": {
         "allow-plugins": {
@@ -81,10 +84,5 @@
             "allow-contrib": false,
             "require": "6.2.*"
         }
-    },
-    "require-dev": {
-        "deployer/deployer": "^7.3",
-        "symfony/stopwatch": "6.2.*",
-        "symfony/web-profiler-bundle": "6.2.*"
     }
 }
